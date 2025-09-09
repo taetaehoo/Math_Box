@@ -29,3 +29,12 @@ def get_Percent(a, b):
 
 def get_Sum_ver1(n):
 	return n * (n + 1) / 2
+
+def factorial(n):
+	
+	sum = 1
+
+	for i in range(1, n+1):
+		sum *= i
+
+	return sum
