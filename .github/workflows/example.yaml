@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
     example_job:
-        runs_on: ubuntu_latest
+        runs-on: ubuntu_latest
         steps: 
         - name: Checkout code
           uses: actions/checkout@v3
